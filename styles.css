@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+.lista-productos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lista-productos th,
+.lista-productos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.lista-productos th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.lista-productos a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.lista-productos a:hover {
+    color: #4caf50;
+}
+
+
+.mensaje-exito {
+    color: #4caf50;
+}
+
+.mensaje-error {
+    color: #f44336;
+}
